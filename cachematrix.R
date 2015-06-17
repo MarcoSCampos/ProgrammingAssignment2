@@ -1,5 +1,5 @@
 ## Pair of functions that caching the inverse matrix
-## The first function create the matrix and make relation from objetecs for a functions
+## The first function create the matrix and make relation from objetcs for a functions
 
 makeCacheMatrix <- function(x = matrix()) {
         invm <- NULL
