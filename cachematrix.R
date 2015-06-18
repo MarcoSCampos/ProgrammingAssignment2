@@ -27,7 +27,8 @@ cacheSolve <- function(x, ...) {
       return(m)
         }
 ## calculating the inverse matrix
-    m <- solve(x$GET(), ...)
+    data <- x$GET()
+    m <- solve(data, ...)
     x$SETSolve(m)
     m 
  }
